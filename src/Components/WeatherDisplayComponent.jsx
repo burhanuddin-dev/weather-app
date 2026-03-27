@@ -32,7 +32,7 @@ function WeatherDisplayComponent({ result }) {
       <div className="flex justify-between items-center">
         <div>
           <p className="text-[20px] text-[#70839e] mb-1.5">
-            {result.name} - {result.sys.country}
+            {result.name}
           </p>
           <p className="text-[16px] text-[#3c465e]">
             {result.weather[0].description || "No Description"}
