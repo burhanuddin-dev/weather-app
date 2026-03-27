@@ -3,6 +3,7 @@ import { CiLocationOn } from "react-icons/ci";
 import { useState } from "react";
 
 function InputComponent({ setCountryName, countryName }) {
+  
   const [InputValue, setInputValue] = useState("");
 
   function handleKeyDown(e) {
